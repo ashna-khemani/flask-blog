@@ -6,9 +6,10 @@ Ensure flask is installed, and launch the app
 ## Installing Flask in a virtualenv
 1. `pip3 install virtualenv`
 2. Navigate to folder
-3. `virutalenv .env`
-4. `pip3 install flask`
-5. Check flask is there: `python3 -c "import flask; print(flask.__version__)"`
+3. `virutalenv .env` (if not already there I think)
+4. `source env/bin/activate`
+5. `pip3 install flask`
+6. Check flask is there: `python3 -c "import flask; print(flask.__version__)"`
 
 ## Running the application
 1. `export FLASK_APP=hello`
